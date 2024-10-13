@@ -11,7 +11,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{A7855BD1-E8CE-4E63-8793-5F97263FBD70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Services.CouponAPI", "Mango.Services.CouponAPI\Mango.Services.CouponAPI.csproj", "{D86997B8-D077-4E2A-865E-018412CA3687}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Services.CouponAPI", "Mango.Services.CouponAPI\Mango.Services.CouponAPI.csproj", "{D86997B8-D077-4E2A-865E-018412CA3687}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Web", "Mango.Web\Mango.Web.csproj", "{F361849F-620C-4F72-9524-0C347735AEA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Services.AuthAPI", "Mango.Services.AuthAPI\Mango.Services.AuthAPI.csproj", "{0CF02A9C-E3A2-484B-B7B7-CD23D9A7A9CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +27,22 @@ Global
 		{D86997B8-D077-4E2A-865E-018412CA3687}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D86997B8-D077-4E2A-865E-018412CA3687}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D86997B8-D077-4E2A-865E-018412CA3687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F361849F-620C-4F72-9524-0C347735AEA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F361849F-620C-4F72-9524-0C347735AEA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F361849F-620C-4F72-9524-0C347735AEA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F361849F-620C-4F72-9524-0C347735AEA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CF02A9C-E3A2-484B-B7B7-CD23D9A7A9CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CF02A9C-E3A2-484B-B7B7-CD23D9A7A9CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CF02A9C-E3A2-484B-B7B7-CD23D9A7A9CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CF02A9C-E3A2-484B-B7B7-CD23D9A7A9CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D86997B8-D077-4E2A-865E-018412CA3687} = {A7855BD1-E8CE-4E63-8793-5F97263FBD70}
+		{F361849F-620C-4F72-9524-0C347735AEA0} = {FB077C4B-416D-428E-9CDE-58931A3F962B}
+		{0CF02A9C-E3A2-484B-B7B7-CD23D9A7A9CC} = {A7855BD1-E8CE-4E63-8793-5F97263FBD70}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {91DAA283-54A7-45C1-BBD1-2B1A0EAA7FAF}
